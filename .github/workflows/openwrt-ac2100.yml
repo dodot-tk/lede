@@ -114,7 +114,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-baidupcs-web=y
           # CONFIG_PACKAGE_luci-app-docker=y
           CONFIG_PACKAGE_luci-app-frpc=y
-		  CONFIG_PACKAGE_luci-app-samba4=y
+          CONFIG_PACKAGE_luci-app-samba4=y
           # CONFIG_PACKAGE_luci-app-n2n_v2=y
           # CONFIG_PACKAGE_luci-app-hd-idle=y
           # CONFIG_PACKAGE_luci-app-kodexplorer=y
