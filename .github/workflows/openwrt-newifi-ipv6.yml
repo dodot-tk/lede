@@ -114,6 +114,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-baidupcs-web=y
           # CONFIG_PACKAGE_luci-app-docker=y
           CONFIG_PACKAGE_luci-app-frpc=y
+          CONFIG_PACKAGE_luci-app-nps=y
           CONFIG_PACKAGE_luci-app-samba4=y
           CONFIG_PACKAGE_luci-app-n2n_v2=y
           CONFIG_PACKAGE_luci-app-zerotier=y
@@ -148,6 +149,9 @@ jobs:
           # CONFIG_PACKAGE_tree=y
           CONFIG_PACKAGE_vim-fuller=y
           CONFIG_PACKAGE_wget=y
+          CONFIG_PACKAGE_ipset=y
+          CONFIG_PACKAGE_iperf=y
+          CONFIG_PACKAGE_ethtool=y
           CONFIG_PACKAGE_tcpdump=y
           EOF
           # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):
